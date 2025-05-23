@@ -101,7 +101,7 @@ public class Banco {
                 // Crear un nuevo cliente con los datos del archivo CSV
                 Cliente cliente = new Cliente(datos[0], datos[1], datos[2], datos[3], datos[4], datos[5], datos[6]);
 
-                // Agregar el cliente a la lista (asegúrate de que `clientes` es un ArrayList)
+                // Agregar el cliente a la lista
                 clientes.add(cliente);
             }
         } catch (IOException e) {

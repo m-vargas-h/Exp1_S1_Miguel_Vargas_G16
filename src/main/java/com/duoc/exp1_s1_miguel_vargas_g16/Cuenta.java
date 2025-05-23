@@ -11,7 +11,7 @@ public class Cuenta {
      * las cuentas. Por ultimo los otros 5 dígitos de la cuenta (contadorCuenta) aumentaran de forma secuencial cada vez que un nuevo
      * usuario abra una cuenta corriente.
      */
-    private static int contadorCuenta = 00001; // la primera cuenta sera registrada con este numero
+    private static int contadorCuenta = 00001; // La primera cuenta sera registrada con este numero
     private static final String COD_SUCURSAL = "00";
     private static final String COD_TIPO_CUENTA = "01";
 

@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class Exp1_S1_Miguel_Vargas_G16 {
     public static void main(String[] args) {
         Banco banco = new Banco();
-        banco.cargarClientesCSV(); //cargamos nuestra base de datos 
-        banco.cargarSaldosCSV();
+        banco.cargarClientesCSV(); // Cargamos la base de datos de clientes registrados
+        banco.cargarSaldosCSV(); // Cargamos la base con el saldo actualizado de las cuentas
         Scanner sc = new Scanner(System.in);
         int opcion;
 
